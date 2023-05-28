@@ -32,49 +32,47 @@ Subtitle __*.srt__ to __*.mp3__
 `venv` - ...
 `bogatov_subtitles` - уникальное имя виртуального окружения, и по факту папка внутри проекта
 
-После создания venv, Далее его необходимо активировать!
+После создания venv, далее его необходимо активировать!
 
 ## Гайд по активации venv в cmd
-Если через `vscode`
-Доказательством его активации будет служить зелёный текст в скобочках слева
-<img src="https://i.imgur.com/qJXt77V.png" width="100%" align="center"/>
 
-Если через `cmd`
+Доказательством его активации будет служить серый текст в скобочках слева:
 <img src="https://i.imgur.com/Dnif6tL.png" width="100%" align="center"/>
 
+Заменить путь на свой, и тупо запустить `run.cmd`
 
+Внури уже вписана команда по активации venv
+
+`cmd /k "cd /d E:\PythonSubtitle\bogatov_subtitles\Scripts & activate` 
 
 ## Гайд по активации venv в VSCode
-Activate Env In Current Terminal
 
-``
-`bogatov_subtitles\Scripts\activate.bat` 
-.\bogatov_subtitles\Scripts\activate 
+Доказательством его активации будет служить зелёный текст в скобочках слева:
 
-``
+<img src="https://i.imgur.com/qJXt77V.png" width="100%" align="center"/>
 
-pip list (Голый! При только только созданом виртуальном окружении)
-<!-- pip        21.2.4 
-setuptools 58.1.0  -->
+Есть хорошая команда в VSCode `Activate Env In Current Terminal` и по умолчанию она отключена! И в user и в workspace.
+Если её включить в настройках (File - Preferences - Settings - ввод в поиск фразы "Activate Env In Current Terminal"), то venv будет сразу автоматически активироваться при открытии и запуске проекта.
 
-pip list (Финальный)
-<!-- certifi            2023.5.7
-charset-normalizer 3.1.0
-click              8.1.3
-colorama           0.4.6
-gTTS               2.3.2
-idna               3.4
-pip                21.2.4
-requests           2.31.0
-setuptools         58.1.0
-urllib3            2.0.2 -->
+Вручную я активировал venv введя эти команды:
+
+`bogatov_subtitles\Scripts\activate.bat`
+
+`.\bogatov_subtitles\Scripts\activate`
+
+Не 2 сразу! А какая-то из них.
 
 
+## Как прочувствовать venv
 
+Введя команду `pip list` - можно увидеть список установленных библиотек.
+
+Таким образом, можно иметь 100500 версий одной и той же библиотеки.
+
+<img src="https://i.imgur.com/GOxSEpn.png" width="100%" align="center"/>
 
 ## Ссылки
 | Описание | Ссылка |
 | ------ | ------ |
 Урок: | https://www.youtube.com/watch?v=APOPm01BVrk
 Репо: | https://github.com/gitalexhubuser/PythonSubtitleToMp3
-# PythonSubtitleToMp3
