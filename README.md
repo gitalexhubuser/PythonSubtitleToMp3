@@ -27,12 +27,17 @@ Subtitle __*.srt__ to __*.mp3__
 `python -m venv bogatov_subtitles`
 
 где:
-`ython` - интепритатор Python установленый в систему либо VSCode
+`ython` - интепритатор Python установленый в систему либо в VSCode
+
 `-m` - ...
+
 `venv` - ...
+
 `bogatov_subtitles` - уникальное имя виртуального окружения, и по факту папка внутри проекта
 
 После создания venv, далее его необходимо активировать!
+
+--
 
 ## Гайд по активации venv в cmd
 
@@ -51,7 +56,10 @@ Subtitle __*.srt__ to __*.mp3__
 
 <img src="https://i.imgur.com/qJXt77V.png" width="100%" align="center"/>
 
-Есть хорошая команда в VSCode `Activate Env In Current Terminal` и по умолчанию она отключена! И в user и в workspace.
+Есть хорошая команда в VSCode `Activate Env In Current Terminal` и по умолчанию она отключена!
+
+И в user и в workspace.
+
 Если её включить в настройках (File - Preferences - Settings - ввод в поиск фразы "Activate Env In Current Terminal"), то venv будет сразу автоматически активироваться при открытии и запуске проекта.
 
 Вручную я активировал venv введя эти команды:
