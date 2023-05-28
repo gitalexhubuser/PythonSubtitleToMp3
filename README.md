@@ -56,7 +56,7 @@ Subtitle __*.srt__ to __*.mp3__
 
 Доказательством его активации будет служить серый текст в скобочках слева:
 
-<img src="https://i.imgur.com/Dnif6tL.png" width="80%" align="center"/>
+<img src="https://i.imgur.com/Dnif6tL.png" width="60%" align="center"/>
 
 Заменить путь на свой, и тупо запустить `run.cmd`
 
@@ -72,7 +72,7 @@ Subtitle __*.srt__ to __*.mp3__
 
 Доказательством его активации будет служить зелёный текст в скобочках слева:
 
-<img src="https://i.imgur.com/qJXt77V.png" width="80%" align="center"/>
+<img src="https://i.imgur.com/qJXt77V.png" width="60%" align="center"/>
 
 Есть хорошая команда в VSCode `Activate Env In Current Terminal` и по умолчанию она отключена!
 
@@ -96,7 +96,7 @@ Subtitle __*.srt__ to __*.mp3__
 
 Таким образом, можно иметь 100500 версий библиотеки для разных проектов!
 
-<img src="https://i.imgur.com/GOxSEpn.png" width="100%" align="center"/>
+<img src="https://i.imgur.com/GOxSEpn.png" width="60%" align="center"/>
 
 ---
 
