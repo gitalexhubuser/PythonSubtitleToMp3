@@ -12,35 +12,50 @@ Subtitle __*.srt__ to __*.mp3__
 
 Сейчас стоит `'1. Getting started with Blender 3.2.srt'`
 
-Активировать виртуальное окружение (2 способа)
+Активировать виртуальное окружение (есть 2 способа)
 
 Установить всё из `requirements.txt` не глобально в систему! А в `venv`.
 
-Запустить скрипт можно через terminal -> `run.cmd`
-Либо через VSCode main.py `ctrl + f5`
+Запустить скрипт можно через Windows cmd terminal `run.cmd`
+Либо через VSCode, файл main.py, открыв терминал и запустив скрипт `ctrl + f5`
 
-
-
-## Гайд по venv (Виртуальное окружение)
+## Гайд по созданию venv (виртуальное окружение)
 Создание виртуального окружения
-ctrl+` в cmd ввести команду
-``python -m venv bogatov_subtitles``
-где bogatov_subtitles - имя в.о
 
-далее его необходимо активировать!
-Если через vscode
+Через интепритатор Python, который установлен в систему, ввести команду:
+
+`python -m venv bogatov_subtitles`
+
+где:
+`ython` - интепритатор Python установленый в систему либо VSCode
+`-m` - ...
+`venv` - ...
+`bogatov_subtitles` - уникальное имя виртуального окружения, и по факту папка внутри проекта
+
+После создания venv, Далее его необходимо активировать!
+
+## Гайд по активации venv в cmd
+Если через `vscode`
 Доказательством его активации будет служить зелёный текст в скобочках слева
 <img src="https://i.imgur.com/qJXt77V.png" width="100%" align="center"/>
 
-## VSCode
+Если через `cmd`
+<img src="https://i.imgur.com/Dnif6tL.png" width="100%" align="center"/>
+
+
+
+## Гайд по активации venv в VSCode
 Activate Env In Current Terminal
 
 ``
-bogatov_subtitles\Scripts\activate.bat .\bogatov_subtitles\Scripts\activate 
+`bogatov_subtitles\Scripts\activate.bat` 
+.\bogatov_subtitles\Scripts\activate 
 
 ``
 
 pip list (Голый! При только только созданом виртуальном окружении)
+<!-- pip        21.2.4 
+setuptools 58.1.0  -->
 
 pip list (Финальный)
 <!-- certifi            2023.5.7
