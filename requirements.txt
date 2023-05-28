@@ -1,0 +1,1 @@
+pgTTS==2.3.2 # pip install gTTS

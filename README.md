@@ -36,5 +36,5 @@ urllib3            2.0.2 -->
 | Описание | Ссылка |
 | ------ | ------ |
 Урок: | https://www.youtube.com/watch?v=APOPm01BVrk
-Репо: | https://github.com/gitalexhubuser/YouTube-chapter-creator-helper
+Репо: | https://github.com/gitalexhubuser/PythonSubtitleToMp3
 # PythonSubtitleToMp3
