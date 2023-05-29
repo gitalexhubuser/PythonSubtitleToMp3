@@ -1,1 +1,6 @@
 pgTTS==2.3.2 # pip install gTTS
+
+# pip install pydub==0.25.1  
+# pip uninstall pydub
+
+# pip install pysrt 
