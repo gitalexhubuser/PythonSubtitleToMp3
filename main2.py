@@ -37,7 +37,7 @@ for i, sub in enumerate(clean_subs):
 files = os.listdir('.')
 audio_files = tuple([file for file in files if file.endswith('.mp3') and file != 'combined_audio.mp3'])
 
-print(audio_files)
+# print(audio_files)
 
     
 
