@@ -7,9 +7,9 @@ import os
 import winsound
 
 
-# subs = pysrt.open('1. Getting started with Blender 3.1.srt') # маленький
+subs = pysrt.open('1. Getting started with Blender 3.1.srt') # маленький
 # subs = pysrt.open('1. Getting started with Blender 3.2.srt')  # весь ! огромный
-subs = pysrt.open('1. Getting started with Blender 3.3.srt')  # средний
+# subs = pysrt.open('1. Getting started with Blender 3.3.srt')  # средний
 
 clean_subs = []
 
@@ -35,7 +35,9 @@ for i, sub in enumerate(clean_subs):
 
 # Автоматом. Получаем список файлов в текущей директории
 files = os.listdir('.')
-audio_files = tuple([file for file in files if file.endswith('.mp3') and file != 'combined_audio.mp3'])
+audio_files = tuple([file for file in files if file.endswith('.mp3') 
+                     and file != 'output.mp3'
+                     and file != 'combined_audio.mp3'])
 
 # print(audio_files)
 

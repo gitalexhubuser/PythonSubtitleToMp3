@@ -1,9 +1,8 @@
-gTTS==2.3.2 # pip install gTTS
+gTTS==2.3.2     # pip install gTTS
+pydub==0.25.1   # pip uninstall pydub==0.25.1 
+pysrt==1.1.2    # pip install pysrt 
 
-# pip install pydub==0.25.1  
 # pip uninstall pydub
-
-# pip install pysrt 
 
 # certifi==2023.5.7
 # chardet==5.1.0   
@@ -17,4 +16,4 @@ gTTS==2.3.2 # pip install gTTS
 # pysrt==1.1.2   
 # requests==2.31.0  
 # setuptools==58.1.0  
-# urllib3==2.0.2   
+# urllib3==2.0.2
