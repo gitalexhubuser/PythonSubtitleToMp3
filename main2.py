@@ -1,11 +1,6 @@
-import pysrt
-import re
+import os, pysrt, re, winsound
 from gtts import gTTS
-
 from pydub import AudioSegment
-import os
-import winsound
-
 
 subs = pysrt.open('1. Getting started with Blender 3.1.srt') # маленький
 # subs = pysrt.open('1. Getting started with Blender 3.2.srt')  # весь ! огромный
